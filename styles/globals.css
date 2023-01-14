@@ -3050,9 +3050,14 @@ margin: 15px ;
 .portfolio-header{
   display: flex;
   max-width: 100%;
-  background-color: #51b4ff;
+  /* background-color: #51b4ff; */
+  background-image: url('../public/portfolio-header-back.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   justify-content: center;
   padding: 144px 0px;
+  border-bottom: 10px solid rgba(0, 0, 0, 0.829);
 }
 
 .header-content{
