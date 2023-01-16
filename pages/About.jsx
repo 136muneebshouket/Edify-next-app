@@ -3,7 +3,7 @@
 // import {Link} from 'react-router-dom'
 // import img from './Screenshot.png'
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 
 const About = () => {
   return (
@@ -116,7 +116,7 @@ const About = () => {
               <div className="column">
                 <div className="card">
                   <div className="author-info">
-                  <Image src='/ceoimg.png' width='100' height='300' alt="Jane"
+                  <img src='/ceoimg.png' width='100' height='300' alt="Jane"
                     // style={{ borderRadius: '20px',width:'200px',height:'200px',margin:'20px' }}
                   />
                   <div className="author-links">

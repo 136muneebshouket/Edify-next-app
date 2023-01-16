@@ -2,7 +2,7 @@ import React from 'react'
 // import webimg from './UI-UX.jpg'
 // import './ui.css'
 import Link from 'next/link'
-import Image from 'next/image'
+// import Image from 'next/image'
 
 
 function UI() {
@@ -27,7 +27,7 @@ function UI() {
             </ul>
           </div>
           <div className="web-logo">
-          <Image className='web-img' src='/UI-UX.jpg' alt=""
+          <img className='web-img' src='/UI-UX.jpg' alt=""
                width='400' height='400'
               />
           </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from "next/link";
-import Image from 'next/image';
+// import Image from 'next/image';
 // import './Footer.css'
 
 function Footer() {
@@ -39,7 +39,7 @@ function Footer() {
      <div className="right boxx">
        <div className="topic">Subscribe us</div>
        <div className="footer-logo">
-      <Image  src="/footerlogo-light.png" width='250' height='100'
+      <img  src="/footerlogo-light.png" width='180' height='70'
        />
        </div>
        <form action="#">

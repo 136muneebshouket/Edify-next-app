@@ -2155,7 +2155,7 @@ h2 {
 }
 
 .web-heading h2 {
-  font-family: cursive;
+  font-family: inherit;
   font-size: xxx-large;
 }
 
@@ -2773,7 +2773,7 @@ margin: 15px ;
   color: white;
   font-size: 2rem;
   padding: 2rem 0;
-  font-family: cursive;
+  font-family: inherit;
   font-size: xxx-large;
 }
 
@@ -2789,7 +2789,7 @@ margin: 15px ;
   color: white;
   font-size: 2rem;
   padding: 2rem 0;
-  font-family: cursive;
+  font-family: inherit;
   font-size: xxx-large;
 }
 

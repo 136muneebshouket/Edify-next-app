@@ -2,7 +2,7 @@ import React from 'react'
 // import webimg from './web-development.jpg'
 // import './digital.css'
 import Link from 'next/link'
-import Image from 'next/image'
+// import Image from 'next/image'
 
 
 function Digital() {
@@ -26,7 +26,7 @@ function Digital() {
             </ul>
           </div>
           <div className="web-logo">
-          <Image className='web-img' src='/web-development.jpg' alt=""
+          <img className='web-img' src='/web-development.jpg' alt=""
                width='400' height='400'
               />
           </div>

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Image from 'next/image'
+// import Image from 'next/image'
 import Link from 'next/link';
 import AOS from 'aos';
 import 'aos/dist/aos.css'
@@ -44,22 +44,22 @@ const Portfolio = () => {
 
           <div className="branding-cards">
             <div className="single-card" data-aos="fade-up">
-              <Image src="/CreativeHub-Work.gif" className='Image-fluid' width='500' height='500' />
+              <img src="/CreativeHub-Work.gif" className='Image-fluid' width='500' height='500' />
               <h2 className="card-text">Branding</h2>
               <div className="color-layer"></div>
             </div>
             <div className="single-card" data-aos="fade-up">
-              <Image src="/CreativeHub-Work-1.gif" className='Image-fluid' width='500' height='500' />
+              <img src="/CreativeHub-Work-1.gif" className='Image-fluid' width='500' height='500' />
               <h2 className="card-text">Logo-Animation</h2>
               <div className="color-layer"></div>
             </div>
             <div className="single-card" data-aos="fade-up">
-              <Image src="/CreativeHub-Work-3.gif" className='Image-fluid' width='500' height='500' />
+              <img src="/CreativeHub-Work-3.gif" className='Image-fluid' width='500' height='500' />
               <h2 className="card-text">Branding-Video</h2>
               <div className="color-layer"></div>
             </div>
             <div className="single-card" data-aos="fade-up">
-              <Image src="/CreativeHub-Work-3.gif" className='Image-fluid' width='500' height='500' />
+              <img src="/CreativeHub-Work-3.gif" className='Image-fluid' width='500' height='500' />
               <h2 className="card-text">Branding,Animated video</h2>
               <div className="color-layer"></div>
             </div>
@@ -83,12 +83,12 @@ const Portfolio = () => {
 
           <div className="branding-cards">
             <div className="single-card" data-aos="fade-up">
-              <Image src="/web-design.webp" className='Image-fluid' width='500' height='500' />
+              <img src="/web-design.webp" className='Image-fluid' width='500' height='500' />
               {/* <h2 className="card-text">Branding</h2> */}
               <div className="color-layer"></div>
             </div>
             <div className="single-card" data-aos="fade-up">
-              <Image src="/web-design(2).webp" className='Image-fluid' width='500' height='500' />
+              <img src="/web-design(2).webp" className='Image-fluid' width='500' height='500' />
               {/* <h2 className="card-text">Logo-Animation</h2> */}
               <div className="color-layer"></div>
             </div>
@@ -114,22 +114,22 @@ const Portfolio = () => {
 
           <div className="branding-cards">
             <div className="single-card" data-aos="fade-up">
-              <Image src="/PORTFOLIO-SEO-3.gif" className='Image-fluid' width='500' height='500' />
+              <img src="/PORTFOLIO-SEO-3.gif" className='Image-fluid' width='500' height='500' />
               <h4 className="card-text">Executive Airport Transportation key word ranking</h4>
               <div className="color-layer"></div>
             </div>
             <div className="single-card" data-aos="fade-up">
-              <Image src="/PORTFOLIO-SEO-3.gif" className='Image-fluid' width='500' height='500' />
+              <img src="/PORTFOLIO-SEO-3.gif" className='Image-fluid' width='500' height='500' />
               <h4 className="card-text">Bussiness Accountant key word ranking</h4>
               <div className="color-layer"></div>
             </div>
             <div className="single-card" data-aos="fade-up">
-              <Image src="/PORTFOLIO-SEO-3.gif" className='Image-fluid' width='500' height='500' />
+              <img src="/PORTFOLIO-SEO-3.gif" className='Image-fluid' width='500' height='500' />
               <h4 className="card-text">SEO-Results and Google Shopping Ads</h4>
               <div className="color-layer"></div>
             </div>
             <div className="single-card" data-aos="fade-up">
-              <Image src="/PORTFOLIO-SEO-3.gif" className='Image-fluid' width='500' height='500' />
+              <img src="/PORTFOLIO-SEO-3.gif" className='Image-fluid' width='500' height='500' />
               <h4 className="card-text">Secret Asthetics SEO-Results</h4>
               <div className="color-layer"></div>
             </div>
@@ -155,12 +155,12 @@ const Portfolio = () => {
 
           <div className="branding-cards">
             <div className="single-card" data-aos="fade-up">
-              <Image src="/Google-shopping-ads-experts.webp" className='Image-fluid' width='500' height='500' />
+              <img src="/Google-shopping-ads-experts.webp" className='Image-fluid' width='500' height='500' />
               {/* <h2 className="card-text">Branding</h2> */}
               <div className="color-layer"></div>
             </div>
             <div className="single-card" data-aos="fade-up">
-              <Image src="/Google-shopping-ads-experts.webp" className='Image-fluid' width='500' height='500' />
+              <img src="/Google-shopping-ads-experts.webp" className='Image-fluid' width='500' height='500' />
               {/* <h2 className="card-text">Logo-Animation</h2> */}
               <div className="color-layer"></div>
             </div>
@@ -188,88 +188,88 @@ const Portfolio = () => {
 
         <div class="trustcontainer">
           <div class="trustcard" style={{ backgroundColor: "#6da7fb" }} data-aos="fade-up" >
-            <Image src="/icons8-web-development-64.png" alt="" width='50' height='50' />
+            <img src="/icons8-web-development-64.png" alt="" width='50' height='50' />
             <p>Logo Text</p>
           </div>
           <div class="trustcard" style={{ backgroundColor: "#6da7fb" }} data-aos="fade-up">
-            <Image src="/icons8-web-development-64.png" alt="" width='50' height='50' />
+            <img src="/icons8-web-development-64.png" alt="" width='50' height='50' />
             <p>Logo Text</p>
           </div>
 
           <div class="trustcard" style={{ backgroundColor: "#6da7fb" }} data-aos="fade-up" >
-            <Image src="/icons8-web-development-64.png" alt="" width='50' height='50' />
+            <img src="/icons8-web-development-64.png" alt="" width='50' height='50' />
             <p>Logo Text</p>
           </div>
 
           <div class="trustcard" style={{ backgroundColor: "#6da7fb" }} data-aos="fade-up" >
-            <Image src="/icons8-web-development-64.png" alt="" width='50' height='50' />
+            <img src="/icons8-web-development-64.png" alt="" width='50' height='50' />
             <p>Logo Text</p>
           </div>
 
           <div class="trustcard" style={{ backgroundColor: "#6da7fb" }} data-aos="fade-up" >
-            <Image src="/icons8-web-development-64.png" alt="" width='50' height='50' />
+            <img src="/icons8-web-development-64.png" alt="" width='50' height='50' />
             <p>Logo Text</p>
           </div>
 
           <div class="trustcard" style={{ backgroundColor: "#6da7fb" }} data-aos="fade-up" >
-            <Image src="/icons8-web-development-64.png" alt="" width='50' height='50' />
+            <img src="/icons8-web-development-64.png" alt="" width='50' height='50' />
             <p>Logo Text</p>
           </div>
 
           <div class="trustcard" style={{ backgroundColor: "#6da7fb" }} data-aos="fade-up" >
-            <Image src="/icons8-web-development-64.png" alt="" width='50' height='50' />
+            <img src="/icons8-web-development-64.png" alt="" width='50' height='50' />
             <p>Logo Text</p>
           </div>
           <div class="trustcard" style={{ backgroundColor: "#6da7fb" }} data-aos="fade-up" >
-            <Image src="/icons8-web-development-64.png" alt="" width='50' height='50' />
+            <img src="/icons8-web-development-64.png" alt="" width='50' height='50' />
             <p>Logo Text</p>
           </div>
           <div class="trustcard" style={{ backgroundColor: "#6da7fb" }} data-aos="fade-up" >
-            <Image src="/icons8-web-development-64.png" alt="" width='50' height='50' />
+            <img src="/icons8-web-development-64.png" alt="" width='50' height='50' />
             <p>Logo Text</p>
           </div>
           <div class="trustcard" style={{ backgroundColor: "#6da7fb" }} data-aos="fade-up" >
-            <Image src="/icons8-web-development-64.png" alt="" width='50' height='50' />
+            <img src="/icons8-web-development-64.png" alt="" width='50' height='50' />
             <p>Logo Text</p>
           </div>
           <div class="trustcard" style={{ backgroundColor: "#6da7fb" }} data-aos="fade-up" >
-            <Image src="/icons8-web-development-64.png" alt="" width='50' height='50' />
+            <img src="/icons8-web-development-64.png" alt="" width='50' height='50' />
             <p>Logo Text</p>
           </div>
           <div class="trustcard" style={{ backgroundColor: "#6da7fb" }} data-aos="fade-up" >
-            <Image src="/icons8-web-development-64.png" alt="" width='50' height='50' />
+            <img src="/icons8-web-development-64.png" alt="" width='50' height='50' />
             <p>Logo Text</p>
           </div>
           <div class="trustcard" style={{ backgroundColor: "#6da7fb" }} data-aos="fade-up" >
-            <Image src="/icons8-web-development-64.png" alt="" width='50' height='50' />
+            <img src="/icons8-web-development-64.png" alt="" width='50' height='50' />
             <p>Logo Text</p>
           </div>
           <div class="trustcard" style={{ backgroundColor: "#6da7fb" }} data-aos="fade-up" >
-            <Image src="/icons8-web-development-64.png" alt="" width='50' height='50' />
+            <img src="/icons8-web-development-64.png" alt="" width='50' height='50' />
             <p>Logo Text</p>
           </div>
           <div class="trustcard" style={{ backgroundColor: "#6da7fb" }} data-aos="fade-up" >
-            <Image src="/icons8-web-development-64.png" alt="" width='50' height='50' />
+            <img src="/icons8-web-development-64.png" alt="" width='50' height='50' />
             <p>Logo Text</p>
           </div>
           <div class="trustcard" style={{ backgroundColor: "#6da7fb" }} data-aos="fade-up" >
-            <Image src="/icons8-web-development-64.png" alt="" width='50' height='50' />
+            <img src="/icons8-web-development-64.png" alt="" width='50' height='50' />
             <p>Logo Text</p>
           </div>
           <div class="trustcard" style={{ backgroundColor: "#6da7fb" }} data-aos="fade-up" >
-            <Image src="/icons8-web-development-64.png" alt="" width='50' height='50' />
+            <img src="/icons8-web-development-64.png" alt="" width='50' height='50' />
             <p>Logo Text</p>
           </div>
           <div class="trustcard" style={{ backgroundColor: "#6da7fb" }} data-aos="fade-up" >
-            <Image src="/icons8-web-development-64.png" alt="" width='50' height='50' />
+            <img src="/icons8-web-development-64.png" alt="" width='50' height='50' />
             <p>Logo Text</p>
           </div>
           <div class="trustcard" style={{ backgroundColor: "#6da7fb" }} data-aos="fade-up" >
-            <Image src="/icons8-web-development-64.png" alt="" width='50' height='50' />
+            <img src="/icons8-web-development-64.png" alt="" width='50' height='50' />
             <p>Logo Text</p>
           </div>
           <div class="trustcard" style={{ backgroundColor: "#6da7fb" }} data-aos="fade-up" >
-            <Image src="/icons8-web-development-64.png" alt="" width='50' height='50' />
+            <img src="/icons8-web-development-64.png" alt="" width='50' height='50' />
             <p>Logo Text</p>
           </div>
         </div>
@@ -299,7 +299,7 @@ const Portfolio = () => {
 
       <div className="gettowork">
         <div className="gif">
-         <Image src='/gettowork.gif' className='image-fluid' width='550' height='400'/>
+         <img src='/gettowork.gif' className='image-fluid' width='550' height='400'/>
         </div>
         <div className="gettowork-content">
           <p className='first'>Have a Project in mind? </p>

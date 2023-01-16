@@ -2,7 +2,7 @@ import React from 'react'
 // import './webdev.css'
 // import webimg from './web-development.jpg'
 import Link from 'next/link'
-import Image from 'next/image'
+// import Image from 'next/image'
 
 function Webdev() {
   return (
@@ -25,7 +25,7 @@ function Webdev() {
               </ul>
             </div>
             <div className="web-logo">
-            <Image className='web-img' src='/web-development.jpg' alt=""
+            <img className='web-img' src='/web-development.jpg' alt=""
                width='500' height='500'
               />
             </div>

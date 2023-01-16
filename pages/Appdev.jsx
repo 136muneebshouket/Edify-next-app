@@ -1,7 +1,8 @@
 import React from 'react'
 // import webimg from './Mobile-Application.jpg'
 // import './Appdev.css'
-import Image from 'next/image'
+import Link from 'next/link'
+// import Image from 'next/image'
 
 function Appdev() {
   return (
@@ -24,7 +25,7 @@ function Appdev() {
               </ul>
             </div>
             <div className="web-logo">
-              <Image className='web-img' src='/Mobile-Application.jpg' alt=""
+              <img className='web-img' src='/Mobile-Application.jpg' alt=""
                width='400' height='400'
               />
             </div>

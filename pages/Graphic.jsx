@@ -2,7 +2,7 @@ import React from 'react'
 // import './Graphic.css'
 // import webimg from './Branding.jpg'
 import Link from 'next/link'
-import Image from 'next/image'
+// import Image from 'next/image'
 
 function Graphic() {
   return (
@@ -26,7 +26,7 @@ function Graphic() {
               </ul>
             </div>
             <div className="web-logo">
-            <Image className='web-img' src='/Branding.jpg' alt=""
+            <img className='web-img' src='/Branding.jpg' alt=""
                width='400' height='400'
               />
             </div>

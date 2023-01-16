@@ -3,7 +3,7 @@
 // import { Inter } from '@next/font/google'
 // import styles from './styles/Home.module.css'
 import React, { useReducer, useState ,useEffect} from 'react'
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 // import webicon from '/icons8-web-development-64.png'
 // import digitalicon from '/icons8-digital-marketing-64.png'
@@ -25,7 +25,7 @@ export default function Home() {
   const initialstate = <div className="content-services-click container" data-aos="fade-up">
     <div className="img-service-header mt-5">
 
-      <Image src="/1-4.jpg" width="700" height="700" alt="" className="img-fluid services-image" />
+      <img src="/1-4.jpg" width="700" height="700" alt="" className="img-fluid services-image" />
     </div>
     <div className="content-service-header mb-5 mt-5 ">
       <div className="content">
@@ -52,7 +52,7 @@ export default function Home() {
           <div className="content-services-click container" data-aos="fade-up">
             <div className="img-service-header mt-5">
 
-              <Image src="/3-4.jpg" width="500" height="500" alt="" className="img-fluid services-image" />
+              <img src="/3-4.jpg" width="500" height="500" alt="" className="img-fluid services-image" />
             </div>
             <div className="content-service-header mb-5 mt-5 ">
               <div className="content">
@@ -76,7 +76,7 @@ export default function Home() {
         <div className="content-services-click container" data-aos="fade-up">
           <div className="img-service-header mt-5">
 
-            <Image src="/2-5.jpg" width="500" height="500" alt="" className="img-fluid services-image" />
+            <img src="/2-5.jpg" width="500" height="500" alt="" className="img-fluid services-image" />
           </div>
           <div className="content-service-header mb-5 mt-5 ">
             <div className="content">
@@ -101,7 +101,7 @@ export default function Home() {
         <div className="content-services-click container" data-aos="fade-up">
           <div className="img-service-header mt-5">
 
-            <Image src="/1-4.jpg" width="500" height="500" alt="" className="img-fluid services-image" />
+            <img src="/1-4.jpg" width="500" height="500" alt="" className="img-fluid services-image" />
           </div>
           <div className="content-service-header mb-5 mt-5 ">
             <div className="content">
@@ -229,10 +229,10 @@ export default function Home() {
             <div className="services" >
               <div class="item">
                 <div class="icon">
-                  <Image src='/icons8-digital-marketing-64.png' width="70" height="70" alt="" />
+                  <img src='/icons8-digital-marketing-64.png' width="70" height="70" alt="" />
                 </div>
                 <div className="link-pointer"> <h5><Link href="/Digital">Digital Marketing</Link></h5>
-                {/* <Image src='/finger-pointing.gif' width="60" height="60" /> */}
+                {/* <img src='/finger-pointing.gif' width="60" height="60" /> */}
                 </div>
 
                 <p>
@@ -243,10 +243,10 @@ export default function Home() {
             <div className="services" >
               <div class="item">
                 <div class="icon">
-                  <Image src='/icons8-seo-53.png' width="70" height="70" alt="" />
+                  <img src='/icons8-seo-53.png' width="70" height="70" alt="" />
                 </div>
                 <div className="link-pointer"> <h5><Link href="/SEO">SEO</Link></h5>
-                {/* <Image src='/finger-pointing.gif' width="60" height="60" /> */}
+                {/* <img src='/finger-pointing.gif' width="60" height="60" /> */}
                 </div>
 
                 
@@ -259,11 +259,11 @@ export default function Home() {
             <div className="services" >
               <div class="item">
                 <div class="icon">
-                  <Image src='/icons8-social-adds-64.png' width="70" height="70" alt="" />
+                  <img src='/icons8-social-adds-64.png' width="70" height="70" alt="" />
                 </div>
                 <div className="link-pointer">
                    <h5><Link href="/Socialmedia">Social Media Marketing</Link></h5>
-                {/* <Image src='/finger-pointing.gif' width="60" height="60" /> */}
+                {/* <img src='/finger-pointing.gif' width="60" height="60" /> */}
                 </div>
 
                 
@@ -276,11 +276,11 @@ export default function Home() {
             <div className="services" >
               <div class="item">
                 <div class="icon">
-                  <Image src='/icons8-Ecomerce-64.png' width="70" height="70" alt="" />
+                  <img src='/icons8-Ecomerce-64.png' width="70" height="70" alt="" />
                 </div>
                 <div className="link-pointer">
                 <h5><Link href="/Eccomerce">Eccomerce</Link></h5>
-                {/* <Image src='/finger-pointing.gif' width="60" height="60" /> */}
+                {/* <img src='/finger-pointing.gif' width="60" height="60" /> */}
                 </div>
 
                 
@@ -292,11 +292,11 @@ export default function Home() {
             <div className="services" >
               <div class="item">
                 <div class="icon">
-                  <Image src='/icons8-app-development-64.png' width="70" height="70" alt="" />
+                  <img src='/icons8-app-development-64.png' width="70" height="70" alt="" />
                 </div>
                 <div className="link-pointer">
                 <h5><Link href="/Appdev">App Development</Link></h5>
-                {/* <Image src='/finger-pointing.gif' width="60" height="60" /> */}
+                {/* <img src='/finger-pointing.gif' width="60" height="60" /> */}
                 </div>
 
                 
@@ -308,11 +308,11 @@ export default function Home() {
             <div className="services" >
               <div class="item">
                 <div class="icon">
-                  <Image src='/icons8-web-development-64.png' width="70" height="70" alt="" />
+                  <img src='/icons8-web-development-64.png' width="70" height="70" alt="" />
                 </div>
                 <div className="link-pointer">
                 <h5><Link href="/Webdev">Website Development</Link></h5>
-                {/* <Image src='/finger-pointing.gif' width="60" height="60" /> */}
+                {/* <img src='/finger-pointing.gif' width="60" height="60" /> */}
                 </div>
 
                 
@@ -324,11 +324,11 @@ export default function Home() {
             <div className="services" >
               <div class="item">
                 <div class="icon">
-                  <Image src='/icons8-graphic-design-64.png' width="70" height="70" alt="" />
+                  <img src='/icons8-graphic-design-64.png' width="70" height="70" alt="" />
                 </div>
                 <div className="link-pointer">
                 <h5><Link href="/Graphic">Graphics Designing</Link></h5>
-                {/* <Image src='/finger-pointing.gif' width="60" height="60" /> */}
+                {/* <img src='/finger-pointing.gif' width="60" height="60" /> */}
                 </div>
 
                 
@@ -340,11 +340,11 @@ export default function Home() {
             <div className="services" >
               <div class="item">
                 <div class="icon">
-                  <Image src='/icons8-video-editing-66.png' width="70" height="70" alt="" />
+                  <img src='/icons8-video-editing-66.png' width="70" height="70" alt="" />
                 </div>
                 <div className="link-pointer">
                 <h5><Link href="/Graphic">Video Editing</Link></h5>
-                {/* <Image src='/finger-pointing.gif' width="60" height="60" /> */}
+                {/* <img src='/finger-pointing.gif' width="60" height="60" /> */}
                 </div>
 
                 
@@ -383,7 +383,7 @@ export default function Home() {
             </div>
             <div class="worksabout-pics" data-aos="fade-up">
               <div class="thumb">
-                <Image src="/3.jpg" width="700" height="700" alt="Thumb" className='img-fluid' />
+                <img src="/3.jpg" width="700" height="700" alt="Thumb" className='img-fluid' />
                 <div class="fun-fact">
                   <div class="timer" data-to="875" data-speed="5000">875</div>
                   <span class="medium">Completed Projects</span>
@@ -530,7 +530,7 @@ export default function Home() {
               <div class="single-item " data-aos="fade-up">
                 <div class="item">
                   <div class="thumb">
-                    <Image src="/1-2.jpg" width="300" height="300" alt="Thumb" />
+                    <img src="/1-2.jpg" width="300" height="300" alt="Thumb" />
                     <div class="social">
 
                       <label class="share-button" onClick={showlinks}>
@@ -558,7 +558,7 @@ export default function Home() {
               <div class="single-item " data-aos="fade-up">
                 <div class="item">
                   <div class="thumb">
-                    <Image src="/1-2.jpg" width="300" height="300" alt="Thumb" />
+                    <img src="/1-2.jpg" width="300" height="300" alt="Thumb" />
                     <div class="social">
 
                       <label class="share-button" onClick={showlinks2}>
@@ -586,7 +586,7 @@ export default function Home() {
               <div class="single-item " data-aos="fade-up">
                 <div class="item">
                   <div class="thumb">
-                    <Image src="/1-2.jpg" width="300" height="300" alt="Thumb" />
+                    <img src="/1-2.jpg" width="300" height="300" alt="Thumb" />
                     <div class="social">
 
                       <label class="share-button" onClick={showlinks3}>
@@ -622,8 +622,8 @@ export default function Home() {
             <div className="about-pics" data-aos="fade-up">
 
               <div class="thumb">
-                <Image src="/1.jpg" width="300" height="300" alt="Thumb" />
-                <Image src="/2.jpg" width="300" height="300" alt="Thumb" />
+                <img src="/1.jpg" width="300" height="300" alt="Thumb" />
+                <img src="/2.jpg" width="300" height="300" alt="Thumb" />
                 <div class="overlay">
                   <div class="content">
                     <h4>20 years of experience</h4>

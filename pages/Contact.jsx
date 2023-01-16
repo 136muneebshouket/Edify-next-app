@@ -1,6 +1,6 @@
 import React from 'react';
 // import './contact.css'
-import Image from 'next/image';
+// import Image from 'next/image';
 import Link from 'next/link';
 // import Image1 from './'
 
@@ -180,14 +180,14 @@ function Contact() {
           <h1 className="logo-box">What Happen Next?</h1>
           <div className="logos-boxs">
             <div className="Image1">
-              <Image src="/image-1.webp" alt="" height="100" width="100" />
+              <img src="/image-1.webp" alt="" height="100" width="100" />
               <p className="grey">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 reprehenderit. Velit debitis unde temporibus repellat quis?
               </p>
             </div>
             <div className="Image1" >
-              <Image src="/image2.webp" height="100" width="100" className="Image-2" alt=""
+              <img src="/image2.webp" height="100" width="100" className="Image-2" alt=""
               //    height="100px" 
               //    width="100px" 
               //    style="margin: auto;" 
@@ -198,7 +198,7 @@ function Contact() {
               </p>
             </div>
             <div className="Image1" >
-              <Image src="/image-3.png" height="100" width="100"
+              <img src="/image-3.png" height="100" width="100"
               //   alt="" height="100px" 
               //   width="100px" 
               //   style="margin: auto;"

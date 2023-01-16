@@ -8,7 +8,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 // import img from '/logo.png'
 // import { NavLink } from 'react-router-dom';
 import Link from 'next/link';
-import Image from 'next/image';
+// import Image from 'next/image';
 // import { Outlet, Link } from "react-router-dom";
 
 
@@ -17,7 +17,7 @@ function Navvbar() {
     <>
       <div className="firstnav">
         <div className="navlogo">
-          <Image src='/logo.png' width={100} height={100} alt="" />
+          <img src='/logo.png' width={100} height={100} alt="" />
         </div>
         <div className="nav-contacts">
           <ul>
@@ -106,7 +106,7 @@ function Navvbar() {
           </Navbar.Collapse>
           <Navbar.Brand href="#home">
             <div className="low-navlogo">
-              <Image src='/logo.png' width="100" height="100" alt="" />
+              <img src='/logo.png' width="100" height="100" alt="" />
             </div>
           </Navbar.Brand>
 
