@@ -1,6 +1,7 @@
 import React from 'react'
 // import './Graphic.css'
 // import webimg from './Branding.jpg'
+import Link from 'next/link'
 import Image from 'next/image'
 
 function Graphic() {
@@ -51,7 +52,7 @@ function Graphic() {
                 </ul>
               </div>
               <div className="buynow-btn">
-              <div class="card-btn"><a href="#">Buy Now</a>
+              <div class="card-btn"><Link href='/Contact'>Buy Now</Link>
                </div>
                </div>
             </div>
@@ -79,7 +80,7 @@ function Graphic() {
                 </ul>
               </div>
               <div className="buynow-btn">
-              <div class="card-btn"><a href="#">Buy Now</a>
+              <div class="card-btn"><Link href='/Contact'>Buy Now</Link>
                </div>
                </div>
             </div>
@@ -112,7 +113,7 @@ function Graphic() {
                 </ul>
               </div>
               <div className="buynow-btn">
-              <div class="card-btn"><a href="#">Buy Now</a>
+              <div class="card-btn"><Link href='/Contact'>Buy Now</Link>
                </div>
                </div>
             </div>

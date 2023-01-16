@@ -162,7 +162,7 @@ export default function Home() {
 
     AOS.init({
       duration:800,
-     offset:250,
+     offset:160,
       anchorPlacement: 'top-bottom'
     }
       )

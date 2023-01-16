@@ -1,6 +1,7 @@
 import React from 'react'
 // import webimg from './UI-UX.jpg'
 // import './ui.css'
+import Link from 'next/link'
 import Image from 'next/image'
 
 
@@ -52,7 +53,7 @@ function UI() {
               </ul>
             </div>
             <div className="buynow-btn">
-            <div class="card-btn"><a href="#">Buy Now</a>
+            <div class="card-btn"><Link href='/Contact'>Buy Now</Link>
              </div>
              </div>
           </div>
@@ -80,7 +81,7 @@ function UI() {
               </ul>
             </div>
             <div className="buynow-btn">
-            <div class="card-btn"><a href="#">Buy Now</a>
+            <div class="card-btn"><Link href='/Contact'>Buy Now</Link>
              </div>
              </div>
           </div>
@@ -113,7 +114,7 @@ function UI() {
               </ul>
             </div>
             <div className="buynow-btn">
-            <div class="card-btn"><a href="#">Buy Now</a>
+            <div class="card-btn"><Link href='/Contact'>Buy Now</Link>
              </div>
              </div>
           </div>

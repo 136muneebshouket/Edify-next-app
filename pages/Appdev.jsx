@@ -50,7 +50,7 @@ function Appdev() {
                 </ul>
               </div>
               <div className="buynow-btn">
-              <div class="card-btn"><a href="#">Buy Now</a>
+              <div class="card-btn"><Link href='/Contact'>Buy Now</Link>
                </div>
                </div>
             </div>
@@ -78,7 +78,7 @@ function Appdev() {
                 </ul>
               </div>
               <div className="buynow-btn">
-              <div class="card-btn"><a href="#">Buy Now</a>
+              <div class="card-btn"><Link href='/Contact'>Buy Now</Link>
                </div>
                </div>
             </div>
@@ -111,7 +111,7 @@ function Appdev() {
                 </ul>
               </div>
               <div className="buynow-btn">
-              <div class="card-btn"><a href="#">Buy Now</a>
+              <div class="card-btn"><Link href='/Contact'>Buy Now</Link>
                </div>
                </div>
             </div>

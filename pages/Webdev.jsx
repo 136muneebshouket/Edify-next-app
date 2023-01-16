@@ -1,6 +1,7 @@
 import React from 'react'
 // import './webdev.css'
 // import webimg from './web-development.jpg'
+import Link from 'next/link'
 import Image from 'next/image'
 
 function Webdev() {
@@ -50,7 +51,7 @@ function Webdev() {
                 </ul>
               </div>
               <div className="buynow-btn">
-              <div class="card-btn"><a href="#">Buy Now</a>
+              <div class="card-btn"><Link href='/Contact'>Buy Now</Link>
                </div>
                </div>
             </div>
@@ -78,7 +79,7 @@ function Webdev() {
                 </ul>
               </div>
               <div className="buynow-btn">
-              <div class="card-btn"><a href="#">Buy Now</a>
+              <div class="card-btn"><Link href='/Contact'>Buy Now</Link>
                </div>
                </div>
             </div>
@@ -111,7 +112,7 @@ function Webdev() {
                 </ul>
               </div>
               <div className="buynow-btn">
-              <div class="card-btn"><a href="#">Buy Now</a>
+              <div class="card-btn"><Link href='/Contact'>Buy Now</Link>
                </div>
                </div>
             </div>
