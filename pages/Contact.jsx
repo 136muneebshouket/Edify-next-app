@@ -1,22 +1,54 @@
-import React from 'react';
-// import './contact.css'
-// import Image from 'next/image';
+import React,{useRef,useState} from 'react';
+import emailjs from '@emailjs/browser';
 import Link from 'next/link';
-// import Image1 from './'
+
 
 function Contact() {
+
+  const [alert, setAlert] = useState('');
+
+ const form=useRef();
+
+ const send_email = (e) => {
+  e.preventDefault();
+
+  emailjs.sendForm('service_jti7i5m', 'template_4jxacxo', form.current, 'Tv4TC7uMYr42yFdGZ')
+    .then((result) => {
+        console.log(result.text);
+        if(result.text=='OK'){
+          setAlert(<div class="alert alert-success" role="alert">
+          This is a success alert—check it out!
+        </div>);
+        setTimeout(()=>{
+          setAlert('')
+        },3000)
+        }
+    }, (error) => {
+        console.log(error.text);
+        setAlert(<div class="alert alert-danger" role="alert">
+        This is a danger alert—check it out!
+      </div>);
+       setTimeout(()=>{
+        setAlert('')
+      },3000)
+    });
+    e.target.reset();
+};
+
   return (
     <>
       <div>
         {/* <body> */}
         <div className="immage">
+          <div className="layer-immage">
           <div className="heading-row">
             <div className="heading-column">
-              <h3 className="page-heading">Contact Us</h3>
+              <h3 className="page-heading"
+              >Contact Us</h3>
               <p>The support team is here to help you</p>
             </div>
             <div className="connected-container">
-              <h3 className="connected">Get connected</h3>
+              <h3 className="connected" style={{ color:'white' }}>Get connected</h3>
               <div className="socials">
                 <Link href="">
                   <i
@@ -46,6 +78,7 @@ function Contact() {
               </div>
             </div>
           </div>
+          </div>
         </div>
         <div className="section-address">
           <div className="address-col">
@@ -61,7 +94,7 @@ function Contact() {
               <div className="info">
                 <p className="bold">ADDRESS</p>
                 <h2>Head Office</h2>
-                <p>717 K Street, STE 207 Sacramento,CA 95814, United State</p>
+                <p className='adress'>717 K Street, STE 207 Sacramento,CA 95814, United State</p>
               </div>
             </div>
             <div className="box">
@@ -74,7 +107,7 @@ function Contact() {
                 <p className="bold">PHONE</p>
 
                 <div className="inner-info">
-                  <div>
+                  <div className='sale'>
                     <h2>Sale:</h2>
                     <p>+92 4344 7374</p>
                   </div>
@@ -118,25 +151,25 @@ function Contact() {
             </div>
           </div>
           <div className="address-form">
-            <form action="">
+            <form action="" ref={form} onSubmit={send_email} >
               <div className="form-row">
                 <div className="form-control">
                   <label for="">Name</label>
-                  <input type="text" placeholder="Type your name" />
+                  <input type="text" placeholder="Type your name" name='user_name' />
                 </div>
                 <div className="form-control">
                   <label for="">Email</label>
-                  <input type="email" placeholder="Type your email" />
+                  <input type="email" name='user_email' placeholder="Type your email" />
                 </div>
               </div>
               <div className="form-row">
-                <div className="form-control">
+                {/* <div className="form-control">
                   <label for="">Skype</label>
                   <input type="text" placeholder="Type your skype ID" />
-                </div>
+                </div> */}
                 <div className="form-control">
                   <label for="">Phone</label>
-                  <input type="text" placeholder="Type your phone" />
+                  <input type="number" name='user_number' placeholder="Type your phone" />
                 </div>
                 
               </div>
@@ -157,7 +190,7 @@ function Contact() {
                 <div className="form-control w-full">
                   <label for="">How can we help you?</label>
                   <textarea
-                    name=""
+                    name='user_comment'
                     id=""
                     placeholder="Give use some details your project"
                     rows="10"
@@ -171,7 +204,8 @@ function Contact() {
                   e-mail.</label
                 >
               </div>
-              <button className="form-btn">Get An Estimate</button>
+               {alert}
+              <button className="form-btn" type="submit">Get An Estimate</button>
             </form>
           </div>
         </div>
@@ -180,17 +214,15 @@ function Contact() {
           <h1 className="logo-box">What Happen Next?</h1>
           <div className="logos-boxs">
             <div className="Image1">
-              <img src="/image-1.webp" alt="" height="100" width="100" />
+              <img src="/images/image-1.webp" alt='Image is Loading' height="100" width="100" />
               <p className="grey">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 reprehenderit. Velit debitis unde temporibus repellat quis?
               </p>
             </div>
             <div className="Image1" >
-              <img src="/image2.webp" height="100" width="100" className="Image-2" alt=""
-              //    height="100px" 
-              //    width="100px" 
-              //    style="margin: auto;" 
+              <img src="/images/image2.webp" height="100" width="100" className="Image-2" alt='Image is Loading'
+             
               />
               <p className="grey">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -198,10 +230,8 @@ function Contact() {
               </p>
             </div>
             <div className="Image1" >
-              <img src="/image-3.png" height="100" width="100"
-              //   alt="" height="100px" 
-              //   width="100px" 
-              //   style="margin: auto;"
+              <img src="/images/image-3.webp" height="100" width="100"
+               alt='Image is Loading'
               />
               <p className="grey">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -210,7 +240,7 @@ function Contact() {
             </div>
           </div>
         </div>
-        {/* </body> */}
+       
       </div>
     </>
   )

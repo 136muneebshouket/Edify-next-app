@@ -1,8 +1,7 @@
 import React from 'react'
-// import webimg from './web-development.jpg'
-// import './digital.css'
+
 import Link from 'next/link'
-// import Image from 'next/image'
+
 
 
 function Digital() {
@@ -15,18 +14,15 @@ function Digital() {
         <div className="web-intro">
           <div className="web-writing">
             <h2>Digital-Marketing</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui est officia dolor vitae, quibusdam unde quae voluptatibus debitis itaque. Rerum labore nobis deserunt? Esse pariatur ullam dolores eligendi inventore earum.Lorem ipsum.</p>
+            <p>From strategy to content creation, we'll help you connect with your audience and grow your business. Our team of experts will work closely with you to develop a tailored strategy and create engaging content that will help you connect with your target audience and drive real results.</p>
            
             <ul className='frameworks'>
-              <li> <span className='reactjs'>React.js</span> and <span className='nextjs'>Next.js </span> Development</li>
-              <li>PHP Development</li>
-              <li>Wordpress Development</li>
-              <li>Custom Development</li>
+              
               {/* <li></li> */}
             </ul>
           </div>
           <div className="web-logo">
-          <img className='web-img' src='/web-development.jpg' alt=""
+          <img className='web-img' src='/images/web-development.webp' alt='Image is Loading'
                width='400' height='400'
               />
           </div>
@@ -36,19 +32,19 @@ function Digital() {
             <div class="pricing_header">
               <h4 class="pricing_title" style={{ borderColor: "#ff7d00;" }}>Bronze</h4>
               <div class="pricing_price_wrap"><span class="pricing_cur">$</span>
-                <div class="pricing_price">499</div>
+                <div class="pricing_price">100</div>
               </div>
             </div>
             <div class="pricing_content">
               <ul>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Up to 4 Unique Pages</strong></span></li>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Search Engine Optimized</strong></span></li>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Contact Form</strong></span></li>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>2 Rounds of Revisions</strong></span></li>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>$150 Per Additional Website Page</strong></span></li>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>100% Satisfaction Guarantee</strong></span></li>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Mobile Responsive</strong></span></li>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Social Media Integration</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Landing Page Recommendation</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Text Ads</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Conversion Tracking</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Campaign Management</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Landing Page Optimization</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Reporting (Monthly)</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Google Analytics Report (Monthly)</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Project Management Tool Tracking</strong></span></li>
               </ul>
             </div>
             <div className="buynow-btn">
@@ -58,25 +54,25 @@ function Digital() {
           </div>
           <div className="web-singlecards-two">
             <div class="pricing_header">
-              <h4 class="pricing_title" style={{ borderColor: "#ff7d00;" }}>Bronze</h4>
+              <h4 class="pricing_title" style={{ borderColor: "#ff7d00;" }}>Silver</h4>
               <div class="pricing_price_wrap"><span class="pricing_cur">$</span>
-                <div class="pricing_price">499</div>
+                <div class="pricing_price">200</div>
               </div>
             </div>
             <div class="pricing_content">
               <ul>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Up to 8 Unique Pages</strong></span></li>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Search Engine Optimized</strong></span></li>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Contact Form</strong></span></li>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Complementery Privacy Policy</strong></span></li>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Speed Optemized</strong></span></li>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Email Signup</strong></span></li>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Search Bar</strong></span></li>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>2 Rounds of Revisions</strong></span></li>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>$150 Per Additional Website Page</strong></span></li>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>100% Satisfaction Guarantee</strong></span></li>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Mobile Responsive</strong></span></li>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Social Media Integration</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Initial Estimate Report</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Landing Page Recommendation</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Unlimited Keywords</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Text Ads</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Conversion Tracking</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Google Analytics Set-up</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Campaign Management</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Mobile Ads</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Reporting (Weekly)</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Google Analytics Report (Monthly)</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Gmail Ads (GSP)</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Project Management Tool Tracking</strong></span></li>
               </ul>
             </div>
             <div className="buynow-btn">
@@ -88,26 +84,26 @@ function Digital() {
             <div class="pricing_header">
               <h4 class="pricing_title"
               // style={{ borderColor: "#ff7d00"}}
-              >Bronze</h4>
+              >Gold</h4>
               <div class="pricing_price_wrap"><span class="pricing_cur">$</span>
-                <div class="pricing_price">499</div>
+                <div class="pricing_price">300</div>
               </div>
             </div>
             <div class="pricing_content">
               <ul>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Up to 10 Unique Pages</strong></span></li>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Mobile Responsive</strong></span></li>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Eccomerce integration</strong></span></li>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Live Chat Setup</strong></span></li>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Social Media Integration</strong></span></li>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Search Engine Optimization</strong></span></li>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Complementery Privacy Policy</strong></span></li>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Speed Optimization</strong></span></li>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Email Signup</strong></span></li>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Search Bar</strong></span></li>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Contact Form</strong></span></li>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>2 Rounds of Revisions</strong></span></li>
-                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>$150 Per Additional Website Page</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Initial Estimate Report</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Landing Page Recommendation</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Unlimited Keywords</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Text Ads</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Conversion Tracking</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>A/B Testing</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Google Analytics Set-up</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Campaign Management</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Mobile Ads</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Gmail Ads (GSP)</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Landing Page Optimization</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Reporting (Daily)</strong></span></li>
+                <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>Project Management Tool Tracking</strong></span></li>
                 <li><span style={{ color: "#000000", fontSize: "14px" }}><strong>100% Satisfaction Guarantee</strong></span></li>
                 
               </ul>

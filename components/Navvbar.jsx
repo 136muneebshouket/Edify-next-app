@@ -5,11 +5,9 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-// import img from '/logo.png'
-// import { NavLink } from 'react-router-dom';
+
 import Link from 'next/link';
-// import Image from 'next/image';
-// import { Outlet, Link } from "react-router-dom";
+
 
 
 function Navvbar() {
@@ -17,7 +15,7 @@ function Navvbar() {
     <>
       <div className="firstnav">
         <div className="navlogo">
-          <img src='/logo.png' width={100} height={100} alt="" />
+          <img src='/images/logo.webp' width={100} height={100} alt='Image is Loading' />
         </div>
         <div className="nav-contacts">
           <ul>
@@ -106,15 +104,15 @@ function Navvbar() {
           </Navbar.Collapse>
           <Navbar.Brand href="#home">
             <div className="low-navlogo">
-              <img src='/logo.png' width="100" height="100" alt="" />
+              <img src='/images/logo.webp' width="100" height="100" alt='Image is Loading' />
             </div>
           </Navbar.Brand>
 
           <div class="searchBox">
 
-            <input class="searchInput" type="text" name="" placeholder="Search" />
-            <button class="searchButton" href="#">
-              <i class="material-icons">
+            <input className="searchInput" type="text" name="search" placeholder="Search" />
+            <button className="searchButton" href="#" name='search'>
+              <i className="material-icons">
                 search
               </i>
             </button>
@@ -125,35 +123,7 @@ function Navvbar() {
 
       </Navbar>
 
-{/* <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">link</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">dropdown link</a>
-          <a class="dropdown-item" href="#">dropdown link</a>
-          <a class="dropdown-item" href="#">dropdown link</a>
-        </div>
-      </li>
-    </ul>
-  </div>
-</nav> */}
+
 
 
     </>

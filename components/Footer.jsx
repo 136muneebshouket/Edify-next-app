@@ -6,8 +6,15 @@ import Link from "next/link";
 function Footer() {
   return (<>
    <footer>
-   <div className="content container">
-     <div className="left-boxx mx-5">
+   <div className="footer-logo-parent">
+   <div className="footer-logo">
+      <img  src="/images/footerlogo-light.webp" width='180' height='70' 
+      alt='Image is Loading'
+       />
+       </div></div>
+   <div className="content">
+    
+     <div className="left-boxx mx-5 my-2">
      
        <div className="topic">Company</div>
        <div><Link href="#"> About Us</Link></div>
@@ -38,10 +45,7 @@ function Footer() {
      </div>
      <div className="right boxx">
        <div className="topic">Subscribe us</div>
-       <div className="footer-logo">
-      <img  src="/footerlogo-light.png" width='180' height='70'
-       />
-       </div>
+      
        <form action="#">
          <input type="text" placeholder="Enter email address"/>
          <input type="submit" name="" value="Send"/>
