@@ -27,10 +27,10 @@ function Footer() {
        <div className="lower">
          <div className="topic">Contact us</div>
          <div className="phone">
-           <Link href="#"><i className="fas fa-phone-volume"></i>+007 9089 6767</Link>
+           <Link href="#"><i className="fas fa-phone-volume"></i>+1 443-741-1187</Link>
          </div>
          <div className="email">
-           <Link href="#"><i className="fas fa-envelope"></i>abc@gmail.com</Link>
+           <Link href="#"><i className="fas fa-envelope"></i>kryptoservs@gmail.com</Link>
          </div>
        </div>
      </div>
@@ -60,7 +60,7 @@ function Footer() {
      </div>
    </div>
    <div className="bottom">
-     <p>Copyright © 2020 <Link href="#">Edify</Link> All rights reserved</p>
+     <p>Copyright © 2020 <Link href="#">kryptoservs</Link> All rights reserved</p>
    </div>
  </footer>
 

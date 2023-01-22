@@ -109,11 +109,11 @@ function Contact() {
                 <div className="inner-info">
                   <div className='sale'>
                     <h2>Sale:</h2>
-                    <p>+92 4344 7374</p>
+                    <p>+1 443-741-1187</p>
                   </div>
                   <div>
                     <h3>For Careers:</h3>
-                    <p>+92437634746</p>
+                    <p>+1 443-741-1187</p>
                   </div>
                 </div>
 
@@ -131,7 +131,7 @@ function Contact() {
               <div className="info">
                 <p className="bold">SKYPE</p>
                 <h2>Head Office</h2>
-                <p>Edify college of IT</p>
+                <p>Kryptoserves</p>
               </div>
             </div>
             <div className="box">
@@ -146,7 +146,7 @@ function Contact() {
               <div className="info">
                 <p className="bold">EMAIL</p>
 
-                <p>info@edify.com</p>
+                <p>kryptoservs@gmail.com</p>
               </div>
             </div>
           </div>
@@ -200,7 +200,7 @@ function Contact() {
               <div className="terms">
                 <input type="checkbox" name="" id="" />
                 <label for=""
-                >I agree to recieve marketing communication from TechloSet by
+                >I agree to recieve marketing communication from kryptoserves by
                   e-mail.</label
                 >
               </div>

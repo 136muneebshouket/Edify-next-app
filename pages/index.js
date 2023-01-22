@@ -436,7 +436,7 @@ useEffect(() => {
                     <i class="fas fa-phone"></i>
                   </div>
                   <div class="info">
-                    <span>Helpline</span> +123 456 7890
+                    <span>Helpline</span> +1 443-741-1187
                   </div>
                 </div>
               </div>
@@ -452,7 +452,7 @@ useEffect(() => {
                     <i class="fas fa-phone"></i>
                   </div>
                   <div class="info">
-                    <span>Helpline</span> +123 456 7890
+                    <span>Helpline</span> +1 443-741-1187
                   </div>
                 </div>
               </div>

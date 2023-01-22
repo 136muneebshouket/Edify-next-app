@@ -652,16 +652,12 @@ display: flex;
 .header-logo{
 display: none;
 }
-
-@media only screen and (max-width: 600px) {
-  .fheader-div {
-    padding: auto !important;
-    padding-bottom: 20px;
-  }
-  .sheader-div{
-    padding-bottom: 20px;
-  }
+.content p {
+  padding-right: 32px;
+  text-align: justify;
+  
 }
+
 
 @media only screen and (max-width: 993px){
   .header-logo{
@@ -673,16 +669,10 @@ display: none;
 
 
 
-.content p {
-  padding-right: 32px;
-  text-align: justify;
-  /* display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center; */
-}
 
-.content .btn {}
+
+
+
 
 .fadeInUp {
   font-family: 'Montserrat', sans-serif;
@@ -739,11 +729,28 @@ display: flex; */
   .sheader-div {
     padding: 10px;
     padding-bottom: 20px;
-    /* margin: 10px; */
+    
   }
   .fadeInDown{
     line-height: 60px;
+    text-align: center;
   }
+  .fheader-div {
+   
+    padding: 70px 20px 20px 20px; 
+  }
+  .fheader-div .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fheader-div .content p{
+    padding-right: 0px;
+  }
+  /* .sheader-div{
+    padding-bottom: 20px;
+  } */
 }
 
 
@@ -2073,7 +2080,7 @@ margin-bottom: 30px;
   background-attachment: scroll;
   background-position: center center;
   height: 210px;
-  padding-top: 80px;
+  /* padding-top: 80px; */
   display: flex;
 
 }
@@ -2083,6 +2090,7 @@ margin-bottom: 30px;
     font-size: xxx-large;
     letter-spacing: 4px;
     font-weight: 600;
+    margin: auto;
 }
 
 .web-maincontainer {
@@ -2247,15 +2255,7 @@ margin-bottom: 30px;
   }
 }
 
-@media only screen and (max-width: 740px) {
 
-  .web-singlecards-one,
-  .web-singlecards-two,
-  .web-singlecards-three {
-    min-width: 100%;
-  }
-}
-/* pages single cards */
 
 .pricing_header {
   justify-content: center;
@@ -2378,19 +2378,27 @@ margin-bottom: 30px;
   }
 }
 
-/* @media only screen and (max-width: 990px) {
-  .web-container {
-    
+@media only screen and (max-width: 740px) {
+
+  .web-singlecards-one,
+  .web-singlecards-two,
+  .web-singlecards-three {
+    min-width: 100%;
   }
-
-
-} */
-
-@media only screen and (max-width: 780px) {
   .web-container {
     margin-top: 25px;
     max-width: 100%;
   }
+ .web-writing{
+  padding: 40px 0px;
+  text-align: center;
+ }
+ .web-writing .frameworks{
+  list-style: none;
+ }
+ .web-writing p{
+  padding-right: 0px;
+ }
 }
 
 
@@ -2575,6 +2583,8 @@ width: 100%;
   
 .innerpadmain{
   padding: 26px 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
   .card {
@@ -2590,6 +2600,9 @@ width: 100%;
   .author-info img {
     width: 200px
   }
+  .column{
+    margin: 20px 0px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -2599,6 +2612,7 @@ width: 100%;
   }
 
 }
+
 
 /* Add some shadows to create a card effect */
 .card {
@@ -2801,6 +2815,7 @@ width: 100%;
   align-items: center;
   box-shadow: 1px 4px 20px -1px rgba(84, 84, 84, 0.75);
   border-radius: 12px;
+  margin-right: 23px;
 }
 
 .box div:first-child {
@@ -2967,7 +2982,10 @@ margin-top:10px;
   .socials {
     justify-content: center;
   }
-
+   
+  .inner-info{
+    flex-direction: column;
+  }
   .logos-boxs {
     flex-direction: column;
   }
@@ -2977,7 +2995,7 @@ margin-top:10px;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 565px) {
   .last-box {
     padding: 10px;
   }
