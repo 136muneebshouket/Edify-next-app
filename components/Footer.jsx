@@ -50,7 +50,7 @@ function Footer() {
          <input type="text" placeholder="Enter email address"/>
          <input type="submit" name="" value="Send"/>
          <div className="media-icons">
-           <Link href="#"><i className="fab fa-facebook-f"></i></Link>
+           <Link href=""><i className="fab fa-facebook-f"></i></Link>
            <Link href="#"><i className="fab fa-instagram"></i></Link>
            <Link href="#"><i className="fab fa-twitter"></i></Link>
            <Link href="#"><i className="fab fa-youtube"></i></Link>

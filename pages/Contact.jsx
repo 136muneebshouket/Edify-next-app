@@ -50,7 +50,7 @@ function Contact() {
             <div className="connected-container">
               <h3 className="connected" style={{ color:'white' }}>Get connected</h3>
               <div className="socials">
-                <Link href="">
+                <Link style={{cursor:'pointer'}} href="">
                   <i
                     //    style="margin: 5px;"
                     className="fa-brands fa-github"></i>
@@ -94,7 +94,7 @@ function Contact() {
               <div className="info">
                 <p className="bold">ADDRESS</p>
                 <h2>Head Office</h2>
-                <p className='adress'>717 K Street, STE 207 Sacramento,CA 95814, United State</p>
+                <p className='adress'>marylan, 21043</p>
               </div>
             </div>
             <div className="box">
@@ -192,7 +192,7 @@ function Contact() {
                   <textarea
                     name='user_comment'
                     id=""
-                    placeholder="Give use some details your project"
+                    placeholder="Give us some details of your project"
                     rows="10"
                   ></textarea>
                 </div>
@@ -201,8 +201,8 @@ function Contact() {
                 <input type="checkbox" name="" id="" />
                 <label for=""
                 >I agree to recieve marketing communication from kryptoserves by
-                  e-mail.</label
-                >
+                  e-mail.
+                  </label>
               </div>
                {alert}
               <button className="form-btn" type="submit">Get An Estimate</button>

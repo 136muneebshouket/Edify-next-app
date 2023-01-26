@@ -34,7 +34,7 @@ function Webdev() {
               <div class="pricing_header">
                 <h4 class="pricing_title" style={{ borderColor: "#ff7d00;" }}>Bronze</h4>
                 <div class="pricing_price_wrap"><span class="pricing_cur">$</span>
-                  <div class="pricing_price">499</div>
+                  <div class="pricing_price">300</div>
                 </div>
               </div>
               <div class="pricing_content">
@@ -56,9 +56,9 @@ function Webdev() {
             </div>
             <div className="web-singlecards-two">
               <div class="pricing_header">
-                <h4 class="pricing_title" style={{ borderColor: "#ff7d00;" }}>Bronze</h4>
+                <h4 class="pricing_title" style={{ borderColor: "#ff7d00;" }}>Silver</h4>
                 <div class="pricing_price_wrap"><span class="pricing_cur">$</span>
-                  <div class="pricing_price">499</div>
+                  <div class="pricing_price">400</div>
                 </div>
               </div>
               <div class="pricing_content">
@@ -86,9 +86,9 @@ function Webdev() {
               <div class="pricing_header">
                 <h4 class="pricing_title"
                 // style={{ borderColor: "#ff7d00"}}
-                >Bronze</h4>
+                >Gold</h4>
                 <div class="pricing_price_wrap"><span class="pricing_cur">$</span>
-                  <div class="pricing_price">499</div>
+                  <div class="pricing_price">500</div>
                 </div>
               </div>
               <div class="pricing_content">

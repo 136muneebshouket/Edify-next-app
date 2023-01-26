@@ -178,13 +178,13 @@ useEffect(() => {
 
 
 
-                    <input className="input-header" type="text" placeholder="enter your name" />
+                    <input className="input-header" type="text" placeholder="Name" />
 
 
-                    <input className="input-header" type="email" placeholder="enter your valid email" /><br />
-                    <textarea name="comment" cols="20" rows="5" placeholder='comment'></textarea>
+                    <input className="input-header" type="email" placeholder="Email" /><br />
+                    <textarea name="comment" cols="20" rows="4" placeholder='Comment'></textarea>
                     <br />
-                    <button className='btn-header' name='submit'>submit </button>
+                    <button className='btn-header' name='submit'>Submit </button>
 
                   </form>
 
@@ -251,12 +251,12 @@ useEffect(() => {
                   <img src='/images/icons8-Ecomerce-64.webp' width="70" height="70" alt='Image is Loading' />
                 </div>
                 <div className="link-pointer">
-                  <h5><Link href="/Eccomerce">Eccomerce</Link></h5>
+                  <h5><Link href="/Eccomerce">Ecommerce</Link></h5>
                 </div>
 
 
                 <p>
-                  Welcome to our eCommerce services company. We understand that today's business world is more digital than ever before. That's why we are here to help you take your business online, and sell your products and services to a global audience.
+                  Welcome to our Ecommerce services company. We understand that today's business world is more digital than ever before. That's why we are here to help you take your business online, and sell your products and services to a global audience.
                 </p>
               </div>
             </div>
@@ -345,7 +345,7 @@ useEffect(() => {
                 <li>
                   <h5>World Class Worker</h5>
                 </li>
-              </ul><Link href="https://wordpressriverthemes.com/tanda/case-studies-version-one-2/" class="btn btn-theme effect btn-sm">Completed Projects</Link>
+              </ul><Link href="" class="btn btn-theme effect btn-sm">Completed Projects</Link>
             </div>
             <div class="worksabout-pics" data-aos="fade-up">
               <div class="thumb">
@@ -397,7 +397,7 @@ useEffect(() => {
             <div className="modal-dialog modal-dialog-centered modal-xl">
               <div
                 className="modal-content modalbg"
-                style={{ height: "100vh", background: "none" }}
+                style={{ height: "85vh", background: "white",top:'30px' }}
               >
                 <div className="modal-header" style={{ borderBottom: "none" }}>
                   <button
@@ -412,7 +412,8 @@ useEffect(() => {
                   <iframe
                     width="100%"
                     height="100%"
-                    src="https://www.youtube.com/embed/At4B7A4GOPg"
+                    // src="https://www.youtube.com/embed/At4B7A4GOPg"
+                    src=""
                     strategy="lazyOnload"
                     title="Responsive Navbar Tutorial"
                     frameborder="0"
@@ -429,7 +430,7 @@ useEffect(() => {
               <div class="info">
                 <h4>24/7 Customer support</h4>
                 <p>
-                  Our 24/7 Customer Support representatives will work closely with you to address any issues or inquiries you may have in a timely manner, ensuring all your needs are met quickly and efficiently. Additionally .customers can reach out to us directly, without having to wait on hold or on the phone for an extended period of time.
+                  Our 24/7 Customer Support representatives will work closely with you to address any issues or inquiries you may have in a timely manner, ensuring all your needs are met quickly and efficiently. Additionally .
                 </p>
                 <div class="call">
                   <div class="icons">
@@ -445,7 +446,7 @@ useEffect(() => {
               <div class="info">
                 <h4>Smart Solutions</h4>
                 <p>
-                  We understand the complexities of today’s competitive markets, which is why our team specializes in developing dynamic strategies that address emerging trends and demands. Our comprehensive approach ensures that all facets of the customer journey are taken into account, from acquisition through retention.
+                  We understand the complexities of today’s competitive markets, which is why our team specializes in developing dynamic strategies that address emerging trends and demands. Our comprehensive approach ensures.
                 </p>
                 <div class="call">
                   <div class="icons">

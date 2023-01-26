@@ -13,7 +13,7 @@ function Eccomerce() {
       <div className="web-container">
         <div className="web-intro">
           <div className="web-writing">
-            <h2>Eccomerce</h2>
+            <h2>Ecommerce</h2>
             <p>Welcome to our eCommerce services company. We understand that today's business world is more digital than ever before. That's why we are here to help you take your business online, and sell your products and services to a global audience.</p>
            
             <ul className='frameworks'>
