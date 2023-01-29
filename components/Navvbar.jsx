@@ -41,7 +41,7 @@ function Navvbar() {
                 <i class="fas fa-envelope-open"></i>
               </div>
               <div class="info">
-                kryptoservs@gmail.com</div>
+              info@kryptoservs.com</div>
             </li>
             <li>
               <div class="icon">
@@ -77,7 +77,7 @@ function Navvbar() {
                   <li><Link style={{ color: 'black', marginBottom: '4px', fontWeight:'500' }} href='/SEO' className='drop-downitem' >Search Engine Optmization</Link></li>
                   <li><Link style={{ color: 'black', marginBottom: '4px', fontWeight:'500' }} href='/UI' className='drop-downitem' >UI/UX</Link></li>
                   <li><Link style={{ color: 'black', marginBottom: '4px', fontWeight:'500' }} href='/Socialmedia' className='drop-downitem' >Social media</Link></li>
-                  <li><Link style={{ color: 'black', marginBottom: '4px', fontWeight:'500' }} href='/Eccomerce' className='drop-downitem' >Eccomerce</Link></li>
+                  <li><Link style={{ color: 'black', marginBottom: '4px', fontWeight:'500' }} href='/Eccomerce' className='drop-downitem' >Ecommerce</Link></li>
                   <li><Link style={{ color: 'black', marginBottom: '4px', fontWeight:'500' }} href='/Enterprise' className='drop-downitem' >Enterprise </Link></li>
 
                 </ul>
@@ -87,15 +87,15 @@ function Navvbar() {
                 <i ref={dropDownRef2} className="fa-solid fa-angle-down"></i>
                 </Link>
                 <ul style={{ display: toggleul ? 'block' : 'none', overflowY: 'scroll', height: '185px', border: '1px solid',width:'100%',borderRadius:'4px' }} ref={dropDownRef3} className='dropDownList'>
-                  <li style={{ margin: '10px 0px' }}><Link href="/Webdev">Web Development</Link></li>
-                  <li style={{ margin: '10px 0px' }}><Link href="/Appdev">App Development</Link></li>
-                  <li style={{ margin: '10px 0px' }}><Link href="/Digital">Digital Marketing</Link></li>
-                  <li style={{ margin: '10px 0px' }}><Link href="/Graphic">Graphic Designing</Link></li>
-                  <li style={{ margin: '10px 0px' }}><Link href="/SEO">Search Engine Optmization</Link></li>
-                  <li style={{ margin: '10px 0px' }}><Link href="/UI">UI/UX</Link></li>
-                  <li style={{ margin: '10px 0px' }}><Link href="/Socialmedia">Social media</Link></li>
-                  <li style={{ margin: '10px 0px' }}><Link href="/Eccomerce">Eccomerce</Link></li>
-                  <li style={{ margin: '10px 0px' }}><Link href="/Enterprise">Enterprise</Link></li>
+                  <li style={{ margin: '15px 0px' }}><Link href="/Appdev">App Development</Link></li>
+                  <li style={{ margin: '15px 0px' }}><Link href="/Webdev">Web Development</Link></li>
+                  <li style={{ margin: '15px 0px' }}><Link href="/Digital">Digital Marketing</Link></li>
+                  <li style={{ margin: '15px 0px' }}><Link href="/Graphic">Graphic Designing</Link></li>
+                  <li style={{ margin: '15px 0px' }}><Link href="/SEO">Search Engine Optmization</Link></li>
+                  <li style={{ margin: '15px 0px' }}><Link href="/UI">UI/UX</Link></li>
+                  <li style={{ margin: '15px 0px' }}><Link href="/Socialmedia">Social media</Link></li>
+                  <li style={{ margin: '15px 0px' }}><Link href="/Eccomerce">Ecommerce</Link></li>
+                  <li style={{ margin: '15px 0px' }}><Link href="/Enterprise">Enterprise</Link></li>
                 </ul>
               </li>
               <li>

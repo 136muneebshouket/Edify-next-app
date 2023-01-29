@@ -52,27 +52,27 @@ function Contact() {
               <div className="socials">
                 <Link style={{cursor:'pointer'}} href="">
                   <i
-                    //    style="margin: 5px;"
+                    
                     className="fa-brands fa-github"></i>
                 </Link>
                 <Link href="">
                   <i
-                    //   style="margin: 5px;" 
+                    
                     className="fa-brands fa-instagram"></i>
                 </Link>
                 <Link href="">
                   <i
-                    //    style="margin: 5px;" 
+                    
                     className="fa-brands fa-facebook"></i>
                 </Link>
                 <Link href="">
                   <i
-                    //   style="margin: 5px;"
+                    
                     className="fa-brands fa-linkedin"></i>
                 </Link>
                 <Link href="">
                   <i
-                    //   style="margin: 5px;"
+                    
                     className="fa-brands fa-twitter"></i>
                 </Link>
               </div>
@@ -107,7 +107,7 @@ function Contact() {
                 <p className="bold">PHONE</p>
 
                 <div className="inner-info">
-                  <div className='sale'>
+                  <div className='sale' style={{width:'132px'}}>
                     <h2>Sale:</h2>
                     <p>+1 443-741-1187</p>
                   </div>
@@ -146,7 +146,7 @@ function Contact() {
               <div className="info">
                 <p className="bold">EMAIL</p>
 
-                <p>kryptoservs@gmail.com</p>
+                <p>info@kryptoservs.com</p>
               </div>
             </div>
           </div>
@@ -222,7 +222,6 @@ function Contact() {
             </div>
             <div className="Image1" >
               <img src="/images/image2.webp" height="100" width="100" className="Image-2" alt='Image is Loading'
-             
               />
               <p className="grey">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.

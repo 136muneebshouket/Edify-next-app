@@ -8,49 +8,71 @@ import 'aos/dist/aos.css'
 
 
 export default function Home() {
-   
+
 
 
 
   const initialstate = <div className="content-services-click container" data-aos="fade-up">
-  <div className="img-service-header mt-5">
+    <div className="img-service-header mt-5">
 
-    <img src="/images/1-4.webp" width="500" height="500"   alt='Image is Loading' className="img-fluid services-image" />
+      <img src="/images/1-4.webp" width="500" height="500" alt='Image is Loading' className="img-fluid services-image" />
+    </div>
+    <div className="content-service-header  mt-5 ">
+      <div className="content">
+
+        <h2 className="service-header-heading" >Global analytic solution of fully-observed variational.</h2>
+        <p>
+
+          We provide services for analytic solution that helps our clients to make better decisions based on data. We have a team of experienced analysts who can help you to understand your data and draw insights from it. We offer a range of services such as data analysis, data visualization, and reporting. We can also help you to develop custom solutions that meet your specific needs.
+
+        </p>
+        <ul>
+
+
+
+        </ul><Link href="/Contact" type="button" className="btn-more">Start Now</Link></div>
+    </div>
   </div>
-  <div className="content-service-header  mt-5 ">
-    <div className="content">
-
-      <h2 className="service-header-heading" >Global analytic solution of fully-observed variational.</h2>
-      <p>
-
-        We provide services for analytic solution that helps our clients to make better decisions based on data. We have a team of experienced analysts who can help you to understand your data and draw insights from it. We offer a range of services such as data analysis, data visualization, and reporting. We can also help you to develop custom solutions that meet your specific needs.
-
-      </p>
-      <ul>
-       
 
 
-      </ul><Link href="/Contact" type="button" className="btn-more">Start Now</Link></div>
-  </div>
-</div>
+  const reducer = (state, action) => {
+    if (action.type === 'Analytic_Solutions') {
+      return (
+        <>
+          <div className="content-services-click container" data-aos="fade-up">
+            <div className="img-service-header mt-5">
+
+              <img src="/images/3-4.webp" width="500" height="500" alt='Image is Loading' className="img-fluid services-image" />
+            </div>
+            <div className="content-service-header mt-5 ">
+              <div className="content">
+
+                <h2 className="service-header-heading" >Global analytic solution of fully-observed variational.</h2>
+                <p>
+
+                  We provide services for analytic solution that helps our clients to make better decisions based on data. We have a team of experienced analysts who can help you to understand your data and draw insights from it. We offer a range of services such as data analysis, data visualization, and reporting. We can also help you to develop custom solutions that meet your specific needs.
+                </p>
+                <ul>
 
 
-const reducer = (state, action) => {
-  if (action.type === 'Analytic_Solutions') {
-    return (
-      <>
+                </ul><Link href="/Contact" type="button" className="btn-more">Start Now</Link></div>
+            </div>
+          </div>
+        </>
+      )
+    } else if (action.type === 'Risk_Management') {
+      return (<>
         <div className="content-services-click container" data-aos="fade-up">
           <div className="img-service-header mt-5">
 
-            <img src="/images/3-4.webp" width="500" height="500"   alt='Image is Loading' className="img-fluid services-image" />
+            <img src="/images/2-5.webp" width="500" height="500" alt='Image is Loading' className="img-fluid services-image" />
           </div>
-          <div className="content-service-header mt-5 ">
+          <div className="content-service-header  mt-5 ">
             <div className="content">
 
-              <h2 className="service-header-heading" >Global analytic solution of fully-observed variational.</h2>
+              <h2 className="service-header-heading" >Collecting meaningful and real-time data &amp; Improve reporting</h2>
               <p>
-
-                We provide services for analytic solution that helps our clients to make better decisions based on data. We have a team of experienced analysts who can help you to understand your data and draw insights from it. We offer a range of services such as data analysis, data visualization, and reporting. We can also help you to develop custom solutions that meet your specific needs.
+                Risk management is an important part of any business and should be taken seriously if businesses hope to remain competitive and successful in today’s ever-evolving market environment. Effective risk management strategies can help organizations anticipate problems before they occur, create a better understanding of how risks could affect operations, plan for how to mitigate those risks, and understand how best to respond once the risky event has occurred.
               </p>
               <ul>
 
@@ -58,82 +80,60 @@ const reducer = (state, action) => {
               </ul><Link href="/Contact" type="button" className="btn-more">Start Now</Link></div>
           </div>
         </div>
-      </>
+
+      </>)
+    }
+    else if (action.type === 'IT_Management') {
+      return (<>
+
+        <div className="content-services-click container" data-aos="fade-up">
+          <div className="img-service-header mt-5">
+
+            <img src="/images/1-4.webp" width="500" height="500" alt='Image is Loading' className="img-fluid services-image" />
+          </div>
+          <div className="content-service-header  mt-5 ">
+            <div className="content">
+
+              <h2 className="service-header-heading" >Visualize & interprete data and present your findings.</h2>
+              <p>
+
+                An effective IT management strategy is crucial for any organization that relies heavily on technology. Without proper oversight, things can quickly get out of hand and lead to costly problems down the line. A good IT manager will have a deep understanding of all the different aspects of their job in order to make informed decisions about how to best keep everything running smoothly.
+              </p>
+              <ul>
+
+              </ul><Link href="/Contact" type="button" className="btn-more">Start Now</Link></div>
+          </div>
+        </div>
+
+      </>)
+    }
+  }
+  const [state, dispatch] = useReducer(reducer, initialstate)
+  const [button, setButton] = useState("none");
+  const [button2, setButton2] = useState("none");
+  const [button3, setButton3] = useState("none");
+
+
+  const showlinks = () => {
+    button === "none" ? setButton("block") : setButton("none")
+  }
+  const showlinks2 = () => {
+    button2 === "none" ? setButton2("block") : setButton2("none")
+  }
+  const showlinks3 = () => {
+    button3 === "none" ? setButton3("block") : setButton3("none")
+  }
+
+
+  useEffect(() => {
+
+    AOS.init({
+      duration: 800,
+      offset: 160,
+      anchorPlacement: 'top-bottom'
+    }
     )
-  } else if (action.type === 'Risk_Management') {
-    return (<>
-      <div className="content-services-click container" data-aos="fade-up">
-        <div className="img-service-header mt-5">
-
-          <img src="/images/2-5.webp" width="500" height="500"   alt='Image is Loading' className="img-fluid services-image" />
-        </div>
-        <div className="content-service-header  mt-5 ">
-          <div className="content">
-
-            <h2 className="service-header-heading" >Collecting meaningful and real-time data &amp; Improve reporting</h2>
-            <p>
-              Risk management is an important part of any business and should be taken seriously if businesses hope to remain competitive and successful in today’s ever-evolving market environment. Effective risk management strategies can help organizations anticipate problems before they occur, create a better understanding of how risks could affect operations, plan for how to mitigate those risks, and understand how best to respond once the risky event has occurred.
-            </p>
-            <ul>
-
-
-            </ul><Link href="/Contact" type="button" className="btn-more">Start Now</Link></div>
-        </div>
-      </div>
-
-    </>)
-  }
-  else if (action.type === 'IT_Management') {
-    return (<>
-
-      <div className="content-services-click container" data-aos="fade-up">
-        <div className="img-service-header mt-5">
-
-          <img src="/images/1-4.webp" width="500" height="500"   alt='Image is Loading' className="img-fluid services-image" />
-        </div>
-        <div className="content-service-header  mt-5 ">
-          <div className="content">
-
-            <h2 className="service-header-heading" >Visualize & interprete data and present your findings.</h2>
-            <p>
-
-              An effective IT management strategy is crucial for any organization that relies heavily on technology. Without proper oversight, things can quickly get out of hand and lead to costly problems down the line. A good IT manager will have a deep understanding of all the different aspects of their job in order to make informed decisions about how to best keep everything running smoothly.
-            </p>
-            <ul>
-
-            </ul><Link href="/Contact" type="button" className="btn-more">Start Now</Link></div>
-        </div>
-      </div>
-
-    </>)
-  }
-}
-const [state, dispatch] = useReducer(reducer, initialstate)
-const [button, setButton] = useState("none");
-const [button2, setButton2] = useState("none");
-const [button3, setButton3] = useState("none");
-
-
-const showlinks = () => {
-  button === "none" ? setButton("block") : setButton("none")
-}
-const showlinks2 = () => {
-  button2 === "none" ? setButton2("block") : setButton2("none")
-}
-const showlinks3 = () => {
-  button3 === "none" ? setButton3("block") : setButton3("none")
-}
-
-
-useEffect(() => {
-
-  AOS.init({
-    duration: 800,
-    offset: 160,
-    anchorPlacement: 'top-bottom'
-  }
-  )
-}, [])
+  }, [])
 
 
 
@@ -145,8 +145,8 @@ useEffect(() => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="shortcut icon" href="/Logo 23.ico" />
       </Head>
-            {/* body */}
-            <div className="body">
+      {/* body */}
+      <div className="body">
         {/* header start */}
         <div className="bg-img ">
           <div class="layer">
@@ -154,16 +154,16 @@ useEffect(() => {
             <div className="row container header-img ">
               <div className="col-lg-6 col-12 fheader-div" data-aos="fade-up">
                 <div className="content">
-                <div className="header-logo">
-                    <img src="/images/logo.webp"   alt='Image is Loading' width='300' height='70' className='image-fluid'
-                   />
+                  <div className="header-logo">
+                    <img src="/images/logo.webp" alt='Image is Loading' width='300' height='70' className='image-fluid'
+                    />
                   </div>
                   <h4 className="wow fadeInUp" style={{ visibility: "visible" }}>Optimize IT Systems </h4>
                   <h2 className="wow fadeInDown" style={{ visibility: "visible" }}>Creating a better <strong>IT solutions</strong></h2>
-                  
+
                   <p className="wow fadeInLeft" style={{ visibility: "visible" }}>
                     A software development company dedicated to creating innovative and cutting-edge technology solutions for businesses of all industries
-                    
+
                   </p>
                   <Link className="btn btn-light" href="/" style={{ visibility: "visible" }}>Start Now</Link>
                 </div>
@@ -172,7 +172,7 @@ useEffect(() => {
                 <div className='header-card'>
                   <div class="heading">
                     <h4>Appointment</h4>
-                    
+
                   </div>
                   <form>
 
@@ -397,7 +397,7 @@ useEffect(() => {
             <div className="modal-dialog modal-dialog-centered modal-xl">
               <div
                 className="modal-content modalbg"
-                style={{ height: "85vh", background: "white",top:'30px' }}
+                style={{ height: "85vh", background: "white", top: '30px' }}
               >
                 <div className="modal-header" style={{ borderBottom: "none" }}>
                   <button
@@ -520,7 +520,7 @@ useEffect(() => {
                     </div>
                   </div>
                   <div class="info">
-                    <h4><Link href="https://wordpressriverthemes.com/tanda/team-single/">Usama khalid</Link></h4>
+                    <h4><Link href="">Usama khalid</Link></h4>
                     <span>Director</span>
                   </div>
                 </div>
@@ -548,7 +548,7 @@ useEffect(() => {
                     </div>
                   </div>
                   <div class="info">
-                    <h4><Link href="https://wordpressriverthemes.com/tanda/team-single/">M.Ahsan</Link></h4>
+                    <h4><Link href="">M.Ahsan</Link></h4>
                     <span>Freelancer</span>
                   </div>
                 </div>
@@ -576,7 +576,7 @@ useEffect(() => {
                     </div>
                   </div>
                   <div class="info">
-                    <h4><Link href="https://wordpressriverthemes.com/tanda/team-single/">Shahan azam</Link></h4>
+                    <h4><Link href="">Shahan azam</Link></h4>
                     <span>Director Admin</span>
                   </div>
                 </div>
@@ -615,8 +615,73 @@ useEffect(() => {
 
 
         </div>
-        {/* about start */}
+        {/* about end */}
+        {/* blog section start */}
+        <div className="team-section">
+          <div className="cntainer">
+            <div class="team-heading ">
+              <h4>Popular News</h4>
+              <h2>Latest from our Blogs</h2>
+            </div>
+            <div className="team-cards">
+              <div class="single-item " data-aos="fade-up">
+                <div class="item">
+                  <div class="thumb">
+                    <img src="/images/1-7-600x400.webp" width="310" height="200" style={{objectFit: 'cover',width:'100%'}} alt='Image is Loading' />
 
+                  </div>
+                  <div style={{ padding: "20px 30px" }} class="blog-info">
+                  <ul class="">
+                      <li><i class="fas fa-calendar-alt"></i> January 20 2021</li>
+                      <li class=""><i class="fas fa-user"></i><a href="" title="Visit admin’s website" rel="author external">Admin</a></li>
+                    </ul>
+                    <h5 style={{ margin: "20px 0px" }}><Link href='/blogpost/1'>Consulted admitting is power acuteness.</Link></h5>
+                    <span style={{ color: '#7D7D7D' }}>Wooded ladies she basket season age her uneasy saw. Discourse unwilling am no described dejection incommode.</span><br />
+                    <br />
+                    <Link href='/blogpost/1' style={{ margin: "20px 0px" }}>Read_more</Link>
+                  </div>
+                </div>
+              </div>
+              <div class="single-item " data-aos="fade-up">
+                <div class="item">
+                  <div class="thumb">
+                    <img src="/images/2-7-600x400.webp" width="310" height="200" style={{objectFit: 'cover',width:'100%'}} alt='Image is Loading' />
+
+                  </div>
+                  <div style={{ padding: "20px 30px" }} class="blog-info">
+                  <ul class="">
+                      <li><i class="fas fa-calendar-alt"></i> January 20 2021</li>
+                      <li class=""><i class="fas fa-user"></i><a href="" title="Visit admin’s website" rel="author external">Admin</a></li>
+                    </ul>
+                    <h5 style={{ margin: "20px 0px" }}><Link href='/blogpost/2'>Consulted admitting is power acuteness.</Link></h5>
+                    <span style={{ color: '#7D7D7D' }}>Wooded ladies she basket season age her uneasy saw. Discourse unwilling am no described dejection incommode.</span><br />
+                    <br />
+                    <Link href='/blogpost/2' style={{ margin: "20px 0px" }}>Read_more</Link>
+                  </div>
+                </div>
+              </div>
+              <div class="single-item " data-aos="fade-up">
+                <div class="item">
+                  <div class="thumb">
+                    <img src="/images/3-7-600x400.webp" width="310" height="200" style={{objectFit: 'cover',width:'100%'}} alt='Image is Loading' />
+
+                  </div>
+                  <div style={{ padding: "20px 30px" }} class="blog-info">
+                    <ul class="">
+                      <li><i class="fas fa-calendar-alt"></i> January 20 2021</li>
+                      <li class=""><i class="fas fa-user"></i><a href="" title="Visit admin’s website" rel="author external">Admin</a></li>
+                    </ul>
+                    <h5 style={{ margin: "20px 0px" }}><Link href='/blogpost/3'>Consulted admitting is power acuteness.</Link></h5>
+                    <span style={{ color: '#7D7D7D' }}>Wooded ladies she basket season age her uneasy saw. Discourse unwilling am no described dejection incommode.</span><br />
+                    <br />
+                    <Link href='/blogpost/3' style={{ margin: "20px 0px" }}>Read_more</Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* blog section end */}
 
 
 

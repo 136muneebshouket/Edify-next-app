@@ -69,7 +69,7 @@ const About = () => {
           <div className="team">
             <div className="row">
               <div className="column">
-                <div className="card">
+                <div className="authorcard">
                   <div className="author-info">
                   <img src='/images/ceoimg.webp' width='100' height='300' alt='Image is Loading'
                     
@@ -84,10 +84,10 @@ const About = () => {
                   <div style={{margin:'20px'}} className="container">
                     <h2>Azeem Qasim</h2>
                     <p className="title">CEO &amp; Founder</p>
-                    <p>“kryptoservs group of companies is one of the leading consultancies in Pakistan because it is actively designing solutions for the world’s most ambitious change-makers who will define the future.”</p>
+                    <p>“kryptoservs group of companies is one of the leading consultancies in UK because it is actively designing solutions for the world’s most ambitious change-makers who will define the future.”</p>
                     
                    
-                    <a href="kryptoservs@gmail.com">kryptoservs@gmail.com</a>
+                    <a href="info@kryptoservs.com">info@kryptoservs.com</a>
 
                   </div>
                 </div>

@@ -30,7 +30,7 @@ function Footer() {
            <Link href="#"><i className="fas fa-phone-volume"></i>+1 443-741-1187</Link>
          </div>
          <div className="email">
-           <Link href="#"><i className="fas fa-envelope"></i>kryptoservs@gmail.com</Link>
+           <Link href="#"><i className="fas fa-envelope"></i>info@kryptoservs.com</Link>
          </div>
        </div>
      </div>
