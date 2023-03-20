@@ -627,16 +627,16 @@ export default function Home() {
               <div class="single-item " data-aos="fade-up">
                 <div class="item">
                   <div class="thumb">
-                    <img src="/images/1-7-600x400.webp" width="310" height="200" style={{objectFit: 'cover',width:'100%'}} alt='Image is Loading' />
+                    <img src="/images/blogimage1.webp" width="310" height="200" style={{ objectFit: 'cover', width: '100%' }} alt='Image is Loading' />
 
                   </div>
                   <div style={{ padding: "20px 30px" }} class="blog-info">
-                  <ul class="">
+                    <ul class="">
                       <li><i class="fas fa-calendar-alt"></i> January 20 2021</li>
                       <li class=""><i class="fas fa-user"></i><a href="" title="Visit admin’s website" rel="author external">Admin</a></li>
                     </ul>
-                    <h5 style={{ margin: "20px 0px" }}><Link href='/blogpost/1'>Consulted admitting is power acuteness.</Link></h5>
-                    <span style={{ color: '#7D7D7D' }}>Wooded ladies she basket season age her uneasy saw. Discourse unwilling am no described dejection incommode.</span><br />
+                    <h5 style={{ margin: "20px 0px" }}><Link href='/blogpost/1'>By 2030, this is what computers will be able to do</Link></h5>
+                    <span style={{ color: '#7D7D7D' }}>Today, computers are in almost everything we touch, all day long. We still have the image of computers as rectangular objects either on the desk or nowadays in the pocket;</span><br />
                     <br />
                     <Link href='/blogpost/1' style={{ margin: "20px 0px" }}>Read_more</Link>
                   </div>
@@ -645,16 +645,17 @@ export default function Home() {
               <div class="single-item " data-aos="fade-up">
                 <div class="item">
                   <div class="thumb">
-                    <img src="/images/2-7-600x400.webp" width="310" height="200" style={{objectFit: 'cover',width:'100%'}} alt='Image is Loading' />
+                    <img src="/images/blogimage2.webp" width="310" height="200" style={{ objectFit: 'cover', width: '100%' }} alt='Image is Loading' />
 
                   </div>
                   <div style={{ padding: "20px 30px" }} class="blog-info">
-                  <ul class="">
+                    <ul class="">
                       <li><i class="fas fa-calendar-alt"></i> January 20 2021</li>
                       <li class=""><i class="fas fa-user"></i><a href="" title="Visit admin’s website" rel="author external">Admin</a></li>
                     </ul>
-                    <h5 style={{ margin: "20px 0px" }}><Link href='/blogpost/2'>Consulted admitting is power acuteness.</Link></h5>
-                    <span style={{ color: '#7D7D7D' }}>Wooded ladies she basket season age her uneasy saw. Discourse unwilling am no described dejection incommode.</span><br />
+                    <h5 style={{ margin: "20px 0px" }}><Link href='/blogpost/2'>Impact Of Cloud Computing: A Simple Overview.</Link></h5>
+                    <span style={{ color: '#7D7D7D' }}>"Cloud computing is not only the future of computing, but the present and all of computing's past". -Larry Ellison
+                      “Cloud companies of all sizes; the cloud is for everyone. </span><br />
                     <br />
                     <Link href='/blogpost/2' style={{ margin: "20px 0px" }}>Read_more</Link>
                   </div>
@@ -663,7 +664,7 @@ export default function Home() {
               <div class="single-item " data-aos="fade-up">
                 <div class="item">
                   <div class="thumb">
-                    <img src="/images/3-7-600x400.webp" width="310" height="200" style={{objectFit: 'cover',width:'100%'}} alt='Image is Loading' />
+                    <img src="/images/blogimage3.webp" width="310" height="200" style={{ objectFit: 'cover', width: '100%' }} alt='Image is Loading' />
 
                   </div>
                   <div style={{ padding: "20px 30px" }} class="blog-info">
@@ -671,10 +672,126 @@ export default function Home() {
                       <li><i class="fas fa-calendar-alt"></i> January 20 2021</li>
                       <li class=""><i class="fas fa-user"></i><a href="" title="Visit admin’s website" rel="author external">Admin</a></li>
                     </ul>
-                    <h5 style={{ margin: "20px 0px" }}><Link href='/blogpost/3'>Consulted admitting is power acuteness.</Link></h5>
-                    <span style={{ color: '#7D7D7D' }}>Wooded ladies she basket season age her uneasy saw. Discourse unwilling am no described dejection incommode.</span><br />
+                    <h5 style={{ margin: "20px 0px" }}><Link href='/blogpost/3'>protect yourself from cyber attacks</Link></h5>
+                    <span style={{ color: '#7D7D7D' }}>Computer security has become a major concern among organizations and individuals, so online cyber security courses are now common and easy to find. Hence the need for a quick ...</span><br />
                     <br />
                     <Link href='/blogpost/3' style={{ margin: "20px 0px" }}>Read_more</Link>
+                  </div>
+                </div>
+              </div>
+              <div class="single-item " data-aos="fade-up">
+                <div class="item">
+                  <div class="thumb">
+                    <img src="/images/blogimage4.webp" width="310" height="200" style={{ objectFit: 'cover', width: '100%' }} alt='Image is Loading' />
+
+                  </div>
+                  <div style={{ padding: "20px 30px" }} class="blog-info">
+                    <ul class="">
+                      <li><i class="fas fa-calendar-alt"></i> January 20 2021</li>
+                      <li class=""><i class="fas fa-user"></i><a href="" title="Visit admin’s website" rel="author external">Admin</a></li>
+                    </ul>
+                    <h5 style={{ margin: "20px 0px" }}><Link href='/blogpost/4'>Artificial Intelligence (AI)</Link></h5>
+                    <span style={{ color: '#7D7D7D' }}>The idea of AI is going returned at least 2,seven-hundred years. As science historian at Stanford college, explained: “Our potential to assume synthetic intelligence goes again to the historical instances.</span><br />
+                    <br />
+                    <Link href='/blogpost/4' style={{ margin: "20px 0px" }}>Read_more</Link>
+                  </div>
+                </div>
+              </div>
+              <div class="single-item " data-aos="fade-up">
+                <div class="item">
+                  <div class="thumb">
+                    <img src="/images/blogimage5.webp" width="310" height="200" style={{ objectFit: 'cover', width: '100%' }} alt='Image is Loading' />
+
+                  </div>
+                  <div style={{ padding: "20px 30px" }} class="blog-info">
+                    <ul class="">
+                      <li><i class="fas fa-calendar-alt"></i> January 20 2021</li>
+                      <li class=""><i class="fas fa-user"></i><a href="" title="Visit admin’s website" rel="author external">Admin</a></li>
+                    </ul>
+                    <h5 style={{ margin: "20px 0px" }}><Link href='/blogpost/5'>Beyond Gaming: The destiny of virtual reality world</Link></h5>
+                    <span style={{ color: '#7D7D7D' }}> the VR and AR market is expected to grow at a CAGR of 63.3 percent between 2018 and 2025. It will reach $571 billion CAGR by 2025</span><br />
+                    <br />
+                    <Link href='/blogpost/5' style={{ margin: "20px 0px" }}>Read_more</Link>
+                  </div>
+                </div>
+              </div>
+              <div class="single-item " data-aos="fade-up">
+                <div class="item">
+                  <div class="thumb">
+                    <img src="/images/blogimage6.webp" width="310" height="200" style={{ objectFit: 'cover', width: '100%' }} alt='Image is Loading' />
+
+                  </div>
+                  <div style={{ padding: "20px 30px" }} class="blog-info">
+                    <ul class="">
+                      <li><i class="fas fa-calendar-alt"></i> January 20 2021</li>
+                      <li class=""><i class="fas fa-user"></i><a href="" title="Visit admin’s website" rel="author external">Admin</a></li>
+                    </ul>
+                    <h5 style={{ margin: "20px 0px" }}><Link href='/blogpost/6'>blockchain technology</Link></h5>
+                    <span style={{ color: '#7D7D7D' }}> Blockchain is a shared, immutable ledger that facilitates the process of recording transactions and tracking assets in a business network. An asset can be tangible (a house,land) or intangible ( copyrights, branding).</span><br />
+                    <br />
+                    <Link href='/blogpost/6' style={{ margin: "20px 0px" }}>Read_more</Link>
+                  </div>
+                </div>
+              </div>
+              <div class="single-item " data-aos="fade-up">
+                <div class="item">
+                  <div class="thumb">
+                    <img src="/images/blogimage7.webp" width="310" height="200" style={{ objectFit: 'cover', width: '100%' }} alt='Image is Loading' />
+
+                  </div>
+                  <div style={{ padding: "20px 30px" }} class="blog-info">
+                    <ul class="">
+                      <li><i class="fas fa-calendar-alt"></i> January 20 2021</li>
+                      <li class=""><i class="fas fa-user"></i><a href="" title="Visit admin’s website" rel="author external">Admin</a></li>
+                    </ul>
+                    <h5 style={{ margin: "20px 0px" }}><Link href='/blogpost/7'>The impact of 5G on computer technology</Link></h5>
+                    <span style={{ color: '#7D7D7D' }}> 5G is the 5th technology (that’s what the “G” stands for) of wi-fi
+                      technology. Widely, the primary generation of mobile technology, or
+                      away from home. 2G introduced a short-messaging layer</span><br />
+                    <br />
+                    <Link href='/blogpost/7' style={{ margin: "20px 0px" }}>Read_more</Link>
+                  </div>
+                </div>
+              </div>
+              <div class="single-item " data-aos="fade-up">
+                <div class="item">
+                  <div class="thumb">
+                    <img src="/images/blogimage8.webp" width="310" height="200" style={{ objectFit: 'cover', width: '100%' }} alt='Image is Loading' />
+
+                  </div>
+                  <div style={{ padding: "20px 30px" }} class="blog-info">
+                    <ul class="">
+                      <li><i class="fas fa-calendar-alt"></i> January 20 2021</li>
+                      <li class=""><i class="fas fa-user"></i><a href="" title="Visit admin’s website" rel="author external">Admin</a></li>
+                    </ul>
+                    <h5 style={{ margin: "20px 0px" }}><Link href='/blogpost/8'>The impact of quantum computing on the future</Link></h5>
+                    <span style={{ color: '#7D7D7D' }}>
+                      Quantum computing, an emerging era that uses the legal guidelines of
+                      quantum mechanics to supply exponentially better overall performance
+                      for positive forms of calculations gives the opportunity of foremost
+                      breakthroughs throughout sectors</span><br />
+                    <br />
+                    <Link href='/blogpost/8' style={{ margin: "20px 0px" }}>Read_more</Link>
+                  </div>
+                </div>
+              </div>
+              <div class="single-item " data-aos="fade-up">
+                <div class="item">
+                  <div class="thumb">
+                    <img src="/images/blogimage9.webp" width="310" height="200" style={{ objectFit: 'cover', width: '100%' }} alt='Image is Loading' />
+
+                  </div>
+                  <div style={{ padding: "20px 30px" }} class="blog-info">
+                    <ul class="">
+                      <li><i class="fas fa-calendar-alt"></i> January 20 2021</li>
+                      <li class=""><i class="fas fa-user"></i><a href="" title="Visit admin’s website" rel="author external">Admin</a></li>
+                    </ul>
+                    <h5 style={{ margin: "20px 0px" }}><Link href='/blogpost/9'>The benefits of using a VPN for computer security</Link></h5>
+                    <span style={{ color: '#7D7D7D' }}>
+                      At a primary level, in case you set off a VPN  when you go online, it could offer two key blessings.
+                      Privacy — by protecting such things as your IP</span><br />
+                    <br />
+                    <Link href='/blogpost/9' style={{ margin: "20px 0px" }}>Read_more</Link>
                   </div>
                 </div>
               </div>

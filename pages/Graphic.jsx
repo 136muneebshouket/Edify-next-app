@@ -35,7 +35,7 @@ function Graphic() {
               <div class="pricing_header">
                 <h4 class="pricing_title" style={{ borderColor: "#ff7d00;" }}>Bronze</h4>
                 <div class="pricing_price_wrap"><span class="pricing_cur">$</span>
-                  <div class="pricing_price">499</div>
+                  <div class="pricing_price">100</div>
                 </div>
               </div>
               <div class="pricing_content">
@@ -59,7 +59,7 @@ function Graphic() {
               <div class="pricing_header">
                 <h4 class="pricing_title" style={{ borderColor: "#ff7d00;" }}>Bronze</h4>
                 <div class="pricing_price_wrap"><span class="pricing_cur">$</span>
-                  <div class="pricing_price">499</div>
+                  <div class="pricing_price">200</div>
                 </div>
               </div>
               <div class="pricing_content">
@@ -89,7 +89,7 @@ function Graphic() {
                 // style={{ borderColor: "#ff7d00"}}
                 >Bronze</h4>
                 <div class="pricing_price_wrap"><span class="pricing_cur">$</span>
-                  <div class="pricing_price">499</div>
+                  <div class="pricing_price">300</div>
                 </div>
               </div>
               <div class="pricing_content">
